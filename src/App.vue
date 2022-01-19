@@ -1,10 +1,14 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">Qui somme nous </router-link> |
-      <router-link to="/Connexion">Connexion </router-link>
+      <div class="feedmi-logo">
+      <img src="@/assets/images/feedmi-logo.png" alt="Logo de feedmi" />
+      </div>
+      <router-link to="/" class="choix"> Accueil </router-link> 
+      <router-link to="/about" class="choix"> Qui somme nous </router-link> 
+      <router-link to="/Connexion" class="choix"> Connexion </router-link>
     </div>
+
     <router-view/>
   </div>
 </template>
@@ -16,9 +20,15 @@
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
 }
-
-#nav {
-  padding: 30px;
+.nav {
+    display: flex;
+    flex-direction: row;
+}
+.choix{
+  display: flex;
+  justify-content: center;
+ 
+  
 }
 
 #nav a {
@@ -26,7 +36,7 @@
   color: #2c3e50;
 }
 
-#nav a.router-link-exact-active {
+#nav a:hover {
   color: #42b983;
 }
 </style>
