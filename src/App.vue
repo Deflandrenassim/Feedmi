@@ -10,9 +10,9 @@
         alt="Logo de feedmi"
       />
       <nav class="Navbar">
-        <router-link to="/" class="choix"> Accueil </router-link> 
-        <router-link to="/about" class="choix"> Qui somme nous </router-link> 
-       <button> <router-link to="/Connexion" class="choix"> Connexion </router-link> </button>
+        <router-link to="/" class="choix"> ACCUEIL  </router-link> 
+        <router-link to="/about" class="choix"> QUI SOMME NOUS ? </router-link> 
+       <button class="btn-connexion"> <router-link to="/Connexion" class="choix"> CONNEXION </router-link> </button>
       </nav>
 
       </div>
@@ -27,37 +27,36 @@
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #27333f;
-  margin : 0px;
+  color: #000000;
+  
+}
+.container{
+  padding-right: 100px;
+  padding-left: 100px;
+  
 }
 .row{
   display: flex;
   flex-direction: row;
-  padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-  
 }
 .Navbar{
- 
-    display: flex;
-    align-items: center;
-    
+  display: flex;
+  align-items: center;   
+  margin-left : 550px;
 }
 .choix{
-  padding: 20px;
+  padding: 30px;
+  outline: none;
 }
 .logo-feedmi{
-  height: 100px;
-  width: 200px;
+  height: 85px;
+  width: 150px;
 }
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
+.btn-connexion{
+  background-color: #04aa86;
+  padding: 5px 10px 5px 10px;
+  color: white;
+  border-radius: 15px;
 }
 
-#nav a:hover {
-  color: #42b983;
-}
 </style>
