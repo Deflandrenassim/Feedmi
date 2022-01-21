@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-      
+      <!-- Le header a été reparti sur App cpour facilité mon routeur sur le header -->
     <div class="container">
 
       <div class="row">
