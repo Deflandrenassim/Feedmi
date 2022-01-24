@@ -1,6 +1,10 @@
 <template>
   <div>
-    <carousel>
+    <carousel
+    :autoplay="true" 
+    :autoplayTimeouy="2000"
+    :mouse-drage="true"
+    >
       <slide>
       <img src="@/assets/images/carte.png" alt="plat de restaurant"  id="images"/>
       </slide>
@@ -23,11 +27,7 @@ export default {
       Slide
   },
   methods : {
- slide() {
-     let i = 0;
-     let time = 2000;
-     console.log(i , time);
- }
+
   }
 }
 
@@ -35,7 +35,7 @@ export default {
     
 <style>
 #images{
-  height: 100px;
-  width: 100px;
+  height: 350px;
+  width: 100%;
 }
 </style>
