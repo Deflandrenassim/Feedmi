@@ -14,7 +14,7 @@
         <router-link to="/about" class="choix"> QUI SOMME NOUS ? </router-link> 
        <button class="btn-connexion"> <router-link to="/Connexion" class="choix"> CONNEXION </router-link> </button>
       </nav>
-
+      
       </div>
       
     </div>
