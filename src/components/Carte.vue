@@ -2,7 +2,7 @@
   <div>
     <h3>{{ Cuisine }}</h3>
     <div class="container">
-      <div class="container-row">
+      <div class="container-row"> <!-- container 1 des mes image en row  --> 
         <div class="mon-image">
           <img
             src="@/assets/cuisine/asiatique.jpg"
@@ -25,7 +25,8 @@
           <span class="texte"> Espagnole </span>
         </div>
       </div>
-      <div class="images-2">
+
+      <div class="container-row2">  <!-- container 2 des mes image en row  --> 
         <div class="mon-image">
           <img src="@/assets/cuisine/halal.jpg" alt="nourriture assiatique" />
           <span class="texte"> HALLAL </span>
@@ -38,6 +39,7 @@
           <img src="@/assets/cuisine/italien.jpg" alt="nourriture assiatique" />
           <span class="texte"> Italien </span>
         </div>
+
       </div>
     </div>
   </div>
@@ -60,7 +62,8 @@ export default {
   text-align: center;
   font-size: 40px;
 }
-.container {
+.container-row, .container-row2 {
+  padding: 10px;
   display: flex;
   justify-content: center;
 
