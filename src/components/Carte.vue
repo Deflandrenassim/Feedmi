@@ -68,4 +68,7 @@ export default {
   justify-content: center;
 
 }
+img{
+  cursor:pointer;
+}
 </style>
