@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h3>{{ Cuisine }}</h3>
+    <h3 class="animate__animated  animate__bounceInRight">{{ Cuisine }}</h3>
     <div class="container">
       <div class="container-row">
         <!-- container 1 des mes image en row  -->
@@ -88,6 +88,7 @@
 </template>
 
 <script>
+import 'animate.css';
 export default {
   name: "Carte",
 
@@ -112,6 +113,7 @@ export default {
   flex-wrap: wrap;
 }
 h3 {
+  font-size: 30px;
   padding-bottom: 10px;
   display: flex;
   justify-content: center;

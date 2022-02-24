@@ -1,5 +1,9 @@
 # projet
-# api Carousel 
+```
+ - api carousel
+ - Librairy Animate Css 
+```
+
 
 ## Project setup
 ```
