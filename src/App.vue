@@ -1,8 +1,6 @@
 <template>
   <div id="app">
       <!-- Le header a été reparti sur App cpour facilité mon routeur sur le header -->
-    <div class="container">
-
       <div class="row">
       <img
         src="@/assets/images/feedmi-logo.png"
@@ -17,7 +15,7 @@
       
       </div>
       
-    </div>
+    
     <router-view />
   </div>
 </template>
@@ -30,19 +28,18 @@
   color: #000000;
   
 }
-.container{
-  padding-right: 100px;
-  padding-left: 100px;
-  
-}
+
 .row{
   display: flex;
   flex-direction: row;
 }
 .Navbar{
   display: flex;
-  align-items: center;   
+  align-items: center; 
   margin-left : 550px;
+  
+
+  
 }
 .choix{
   padding: 30px;
@@ -52,6 +49,7 @@
 .logo-feedmi{
   height: 85px;
   width: 150px;
+  padding-left: 100px;
 }
 .btn-connexion{
   background-color: #04aa86;
