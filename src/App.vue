@@ -47,6 +47,7 @@
 .choix{
   padding: 30px;
   outline: none;
+  text-decoration: none;
 }
 .logo-feedmi{
   height: 85px;

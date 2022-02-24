@@ -9,6 +9,7 @@
             src="@/assets/cuisine/couscous.jpg"
             alt="nourriture assiatique"
           />
+          <div class="plat"> Plat couscous </div>
         </div>
 
         <div class="mon-image">
@@ -16,6 +17,7 @@
             src="@/assets/cuisine/asiatique.jpg"
             alt="nourriture assiatique"
           />
+         <div class="plat"> Plat couscous </div>
         </div>
 
 
@@ -24,6 +26,15 @@
             src="@/assets/cuisine/italien.jpg"
             alt="nourriture assiatique"
           />
+          <div class="plat"> Plat Italien </div>
+        </div>
+
+        <div class="mon-image">
+          <img
+            src="@/assets/cuisine/healthy.jpg"
+            alt="nourriture assiatique"
+          />
+          <div class="plat"> Plat healthy </div>
         </div>
       </div>
        
@@ -52,8 +63,8 @@ export default {
   justify-content: center;
   justify-content: space-evenly;
 }
-.h3 {
-  padding-top: 10px;
+h3 {
+  padding-bottom: 10px;
   display: flex;
   justify-content: center;
 }
@@ -62,9 +73,9 @@ img {
   cursor: pointer;
   
 }
-img:hover{
-  height: 500px;
-  width: 300px;
-  transition-delay: 2s;
+.plat {
+  display: flex;
+  align-items: center;
 }
+
 </style>
