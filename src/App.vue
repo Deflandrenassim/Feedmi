@@ -42,9 +42,13 @@
   
 }
 .choix{
+  color: black;
   padding: 30px;
   outline: none;
   text-decoration: none;
+}
+.choix:hover{
+  color: rgb(0, 203, 169);
 }
 .logo-feedmi{
   height: 85px;

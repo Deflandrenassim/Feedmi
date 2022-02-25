@@ -14,6 +14,12 @@
       <slide>
      <img src="@/assets/images/plate2.png" alt="plat de restaurant" id="images" /> 
      </slide>
+     <slide>
+      <img src="@/assets/images/carte.png" alt="plat de restaurant"  id="images"/>
+      </slide>
+      <slide>
+      <img src="@/assets/images/plate1.png" alt="plat de restaurant"  id="images"/>
+      </slide>
     </carousel>
   </div>
 </template>
