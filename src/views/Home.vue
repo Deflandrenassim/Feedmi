@@ -3,6 +3,7 @@
    <Caroussel />
   <HelloWorld />
   <Carte />
+  <Maps />
 
 
   </div>
@@ -13,13 +14,15 @@
 import Carte from '@/components/Carte.vue'
 import HelloWorld from '@/components/HelloWorld.vue'
 import Caroussel from '@/components/Caroussel.vue'
+import Maps from '@/components/Map/Maps.vue'
 
 export default {
   name: 'Home',
   components: {
     HelloWorld,
     Caroussel,
-    Carte
+    Carte,
+    Maps
   }
 }
 </script>

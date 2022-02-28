@@ -81,6 +81,5 @@ h3{
 .valider:hover {
   background-color: rgb(0, 203, 169);
 }
-/* css image map */ 
 
 </style>
