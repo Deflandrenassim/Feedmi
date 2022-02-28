@@ -1,7 +1,8 @@
 <template>
   <div>
    <h3 class="animate__animated animate__backInDown"> {{inscrit }} </h3>
-    <div class="container-form">
+   <div id="container-card">
+       <div class="container-form">
       <form class="formulaire">
         <div class="nom"> 
           <span> Nom : </span>
@@ -23,6 +24,8 @@
         </div>
       </form>
     </div>
+   </div>
+   
   </div>
 </template>
 
@@ -43,25 +46,27 @@ h3{
   justify-content: center;
   font-size: 30px;
 }
+#container-card{
+  display:flex;
+  justify-content: center;
+}
 .container-form{
-  margin: auto;
+  display:flex;
+  justify-content: center;
   background-color: rgb(219, 218, 218);
   height: 500px;
   width: 500px;
   box-shadow: #03a84e 0 0 16px;
   border-radius: 10px;
-  margin-top: 5%;
+  
 }
 .formulaire {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  margin:auto;
   
 }
-.nom, .email .prenom{
- margin: auto;
- 
-}
+
 .valider {
   height: 40px;
   width: 100px;
