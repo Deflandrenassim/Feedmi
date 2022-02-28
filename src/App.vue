@@ -9,7 +9,7 @@
       />
       <nav class="Navbar">
         <router-link to="/" class="choix"> ACCUEIL  </router-link> 
-        <router-link to="/about" class="choix"> MENU </router-link> 
+        <router-link to="/about" class="choix"> MENUS <i class="fa-solid fa-burger-lettuce"></i> </router-link> 
        <button class="btn-connexion"> <router-link to="/Connexion" class="choix"> CONNEXION </router-link> </button>
       </nav>
       
