@@ -1,4 +1,6 @@
 <template>
+<div>
+      <h4>{{ reseau }} </h4>
   <div class="container-logo">
       <div class="logo">
         <i class="fa-brands fa-instagram"></i>
@@ -7,20 +9,32 @@
         <i class="fa-brands fa-twitter"></i>
      </div>
   </div>
+</div>
 </template>
 
 <script>
 export default {
-        name:'Reseaux'
+        name:'Reseaux',
+        data(){
+          return{
+            reseau: '#Mes réseaux ou me joindre'
+          }
+        }
 }
 </script>
 
 <style>
+h4{
+
+}
+.container-logo{
+   position: relative;
+  bottom: 100px; 
+}
 
 .logo{
     display: flex;
-    justify-content: center ;
-    flex-direction: row-reverse;
-    justify-content: flex-start;
+    justify-content: space-around;
+    cursor: pointer;
 }
 </style>
