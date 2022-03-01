@@ -1,9 +1,8 @@
 <template>
   <div>
-<div class="map">
+<div class="svg-container">
      
 </div>
-
 
 <svg class="svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Calque_1" x="0px"
      y="0px" viewBox="0 0 1300 550" style="enable-background:new 0 0 1300 550;" xml:space="preserve">
@@ -20,6 +19,7 @@
                 repeatCount="indefinite"
         />
 	</path>
+
 
 	<path class="st1" fill="#00cba9" fill-opacity="1" d="M 0 250 C 600 100 650 450 1300 250 L 1300 550 L 0 550 L 0 250">
 		<animate
@@ -67,8 +67,14 @@ export default {
 </script>
 
 <style scoped>
-.svg{
-  color: green;
+.fa-brands{
+  display:block;
+  cursor:pointer;
+  height: 70px;
+  width: 30px;
+}
+.st1{
+  height: 1000px;
 }
 .map{
   margin-top: 50px;
