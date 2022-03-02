@@ -1,8 +1,19 @@
 <template>
   <div>
-<div class="svg-container">
-     
-</div>
+
+  
+ <h4>{{ reseau }} </h4>
+  <!--  <div class="background">
+  <div class="container-logo">
+      <div class="logo">
+        <i class="fa-brands logos fa-instagram"></i>
+        <i class="fa-brands logos fa-facebook"></i>
+        <i class="fa-brands logos fa-github"></i>
+        <i class="fa-brands logos  fa-twitter"></i>
+     </div>
+  </div>
+  </div> -->
+
 
 <svg class="svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Calque_1" x="0px"
      y="0px" viewBox="0 0 1300 550" style="enable-background:new 0 0 1300 550;" xml:space="preserve">
@@ -67,20 +78,23 @@ export default {
 </script>
 
 <style scoped>
-.fa-brands{
-  display:block;
-  cursor:pointer;
-  height: 70px;
-  width: 30px;
+
+.container-logo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
 }
-.st1{
-  height: 1000px;
+.logo{
+  display: flex;
+  justify-content: space-around;
+position: absolute;
+    bottom : -100px;
 }
-.map{
-  margin-top: 50px;
-}
-.picture-map{
-  height: 400px;
-  width: 200px;
-}
+
+
+
+
+
+
 </style>

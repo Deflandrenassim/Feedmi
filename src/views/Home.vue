@@ -4,7 +4,7 @@
   <HelloWorld />
   <Carte />
   <Maps />
-  <Reseaux />
+  
 
   </div>
 </template>
@@ -15,7 +15,7 @@ import Carte from '@/components/Carte.vue'
 import HelloWorld from '@/components/HelloWorld.vue'
 import Caroussel from '@/components/Caroussel.vue'
 import Maps from '@/components/Map/Maps.vue'
-import Reseaux from '@/components/Reseau/Reseau.vue'
+
 
 export default {
   name: 'Home',
@@ -24,7 +24,7 @@ export default {
     Caroussel,
     Carte,
     Maps,
-    Reseaux
+    
   }
 }
 </script>
