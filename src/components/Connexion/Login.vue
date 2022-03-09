@@ -4,6 +4,7 @@
    <div id="container-card">
        <div class="container-form">
       <form class="formulaire">
+        <div class="container-name">
         <div class="nom"> 
           <span> Nom : </span>
           <label for="name"></label>
@@ -18,6 +19,7 @@
           <span> Email : </span>
           <label for="mail"></label>
           <input type="email" id="mail" name="user_mail" />
+        </div>
         </div>
         <div>
           <button class="valider">Validez</button>
@@ -62,6 +64,12 @@ h3{
   box-shadow: #03a84e 0 0 16px;
   border-radius: 10px;
   
+}
+.container-name{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-end;
 }
 .formulaire {
   display: flex;

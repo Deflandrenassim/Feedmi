@@ -32,9 +32,7 @@ export default {
       Carousel,
       Slide
   },
-  methods : {
-
-  }
+  
 }
 
 </script>

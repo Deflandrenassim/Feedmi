@@ -1,6 +1,6 @@
 <template>
   <div>
-      Choisit ton Menu 
+    
   </div>
 </template>
 
