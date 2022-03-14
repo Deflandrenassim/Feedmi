@@ -2,6 +2,11 @@
   <div>
  <h4>{{ reseau }} </h4>
 
+  <div class="slogan">
+   <h1> #La Livraison de maintenant </h1>
+   <i class="fa-solid fa-car-side-bolt"></i>
+  </div>
+
 <svg class="svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Calque_1" x="0px"
      y="0px" viewBox="0 0 1300 550" style="enable-background:new 0 0 1300 550;" xml:space="preserve">
 
@@ -55,6 +60,8 @@
 
 </svg>
 
+
+
   </div>
 </template>
 
@@ -65,7 +72,11 @@ export default {
 </script>
 
 <style scoped>
-
+.slogan{
+  display:flex;
+  justify-content: center;
+  padding-top: 10px;
+}
 .container-logo{
   display: flex;
   flex-direction: column;
