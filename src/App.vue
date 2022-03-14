@@ -15,10 +15,11 @@
       
       </div>
 
-    <router-view />
+     <transition name="fade" mode="out-in"> <!-- transition entre les pages move -->
+    <router-view/>
+    </transition>
+    </div>
 
-
-  </div>
 </template>
 
 
@@ -58,6 +59,13 @@
   padding: 5px 10px 5px 10px;
   color: white;
   border-radius: 15px;
+}
+.fade-enter, .fade-leave-to {
+  opacity: 0;
+  transform: translateX(2em)
+}
+.fade-enter-active, .fade-leave-active{
+  transition: all .3s ease;
 }
 
 </style>

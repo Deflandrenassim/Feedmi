@@ -1,6 +1,9 @@
 <template>
-  <div>
-    
+  <div class="container-menu">
+    <div class="container-flex">
+
+    </div>
+  
   </div>
 </template>
 
