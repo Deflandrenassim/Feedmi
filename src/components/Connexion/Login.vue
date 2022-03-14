@@ -20,9 +20,9 @@
           <label for="mail"></label>
           <input type="email" id="mail" name="user_mail" />
         </div>
+          <button class="valider">Validez</button>
         </div>
         <div>
-          <button class="valider">Validez</button>
         </div>
       </form>
     </div>
@@ -81,6 +81,7 @@ h3{
 .valider {
   height: 40px;
   width: 100px;
+  margin-top:10px;
   cursor: pointer;
   color: rgb(155, 153, 153);
   border-radius: 20px 20px;
