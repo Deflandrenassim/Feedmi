@@ -4,7 +4,12 @@
 
     <div class="slogan">
       <h1>#La Livraison de maintenant</h1>
-      <i class="fa-solid fa-car-bolt"> </i>
+      <h2>Venez nous rejoindre sur nos réseau sociaux</h2>
+      <div class="reseaux-sociaux">
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-facebook"></i>
+      </div>
     </div>
 
     <svg
@@ -97,18 +102,21 @@ export default {
 <style scoped>
 .slogan {
   display: flex;
-  justify-content: center;
-  padding-top: 10px;
-}
-.container-logo {
-  display: flex;
   flex-direction: column;
-  justify-content: center;
+  align-items: center;
 }
-.logo {
+.fa-instagram {
+  color: #8a3ab9;
+}
+.fa-twitter {
+  color: #00e3ff;
+}
+.fa-facebook {
+  color: #2f55a4;
+}
+.reseaux-sociaux {
   display: flex;
-  justify-content: space-around;
-  position: absolute;
-  bottom: -100px;
+  justify-content: center;
+  font-size: 30px;
 }
 </style>
